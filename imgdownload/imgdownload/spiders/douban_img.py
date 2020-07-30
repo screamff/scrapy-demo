@@ -1,6 +1,6 @@
 import scrapy
 from ..items import DoubanImgsItem
-
+from pathlib import Path
 
 class DoubanImgSpider(scrapy.Spider):
     name = 'douban_img'
